@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  width: 5rem;
+  height: 6.06vh;
+}
+
+h2 {
+  /* border: 2px solid black; */
+    height: 5vh;
+    width: 20rem;
+}
+
+#calculator {
+border: 1px solid black;
+width: 20rem;
+height: 40.6vh;
+}
