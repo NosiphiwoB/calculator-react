@@ -40,16 +40,42 @@
 button {
   width: 5rem;
   height: 6.06vh;
+  border-radius: 20px;
 }
 
 h2 {
-  /* border: 2px solid black; */
     height: 5vh;
     width: 20rem;
+    border-bottom: 1px solid black;
+    /* position: absolute ; */
+  
 }
 
 #calculator {
 border: 1px solid black;
 width: 20rem;
 height: 40.6vh;
+margin:auto;
+border-radius: 20px;
+}
+
+#equals{
+  background-color: rgb(14, 154, 14);
+}
+
+#clear {
+  background-color: red;
+}
+
+#symbols {
+background-color: aquamarine;
+}
+
+#numbers {
+  background-color: lightgray;
+}
+
+#backSpace {
+  color:red;
+  background-color: lightgrey;
 }

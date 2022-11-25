@@ -45,38 +45,38 @@ return setDisplayNumbers(str)
     </div>
 
     <div>
-      <button onClick={() => clear()}>AC</button>
-      <button onClick={() => addToDisplay("(")}>(</button>
-      <button onClick={() => addToDisplay(")")}>)</button>
-      <button onClick={() => addToDisplay("/")}>/</button>
+      <button id="clear" onClick={() => clear()}>AC</button>
+      <button id="symbols" onClick={() => addToDisplay("(")}>(</button>
+      <button id="symbols" onClick={() => addToDisplay(")")}>)</button>
+      <button id="symbols" onClick={() => addToDisplay("/")}>/</button>
     </div>
 
     <div>
-     <button onClick={() => addToDisplay(7)}>7</button>
-     <button onClick={() => addToDisplay(8)}>8</button>
-     <button onClick={() => addToDisplay(9)}>9</button>
-     <button onClick={() => addToDisplay('+')}>+</button>
+     <button id="numbers" onClick={() => addToDisplay(7)}>7</button>
+     <button id="numbers" onClick={() => addToDisplay(8)}>8</button>
+     <button id="numbers" onClick={() => addToDisplay(9)}>9</button>
+     <button id="symbols" onClick={() => addToDisplay('+')}>+</button>
     </div>
 
     <div>
-     <button onClick={() => addToDisplay(4)}>4</button>
-     <button onClick={() => addToDisplay(5)}>5</button>
-     <button onClick={() => addToDisplay(6)}>6</button>
-     <button onClick={() => addToDisplay("-")}>-</button>
+     <button id="numbers" onClick={() => addToDisplay(4)}>4</button>
+     <button id="numbers" onClick={() => addToDisplay(5)}>5</button>
+     <button id="numbers" onClick={() => addToDisplay(6)}>6</button>
+     <button id="symbols" onClick={() => addToDisplay("-")}>-</button>
     </div>
 
     <div>
-     <button onClick={() => addToDisplay(1)}>1</button>
-     <button onClick={() => addToDisplay(2)}>2</button>
-     <button onClick={() => addToDisplay(3)}>3</button>
-     <button onClick={() => addToDisplay('*')}>*</button>
+     <button id="numbers" onClick={() => addToDisplay(1)}>1</button>
+     <button id="numbers" onClick={() => addToDisplay(2)}>2</button>
+     <button id="numbers" onClick={() => addToDisplay(3)}>3</button>
+     <button id="symbols" onClick={() => addToDisplay('*')}>*</button>
     </div>
   
     <div>
-     <button onClick={() => delet()}>x</button>
-     <button onClick={() => addToDisplay(0)}>0</button>
-     <button onClick={() => addToDisplay(".")}>.</button>
-     <button onClick={() => add()}>=</button>
+     <button id="backSpace" onClick={() => delet()}>C</button>
+     <button id="numbers" onClick={() => addToDisplay(0)}>0</button>
+     <button id="numbers" onClick={() => addToDisplay(".")}>.</button>
+     <button id="equals" onClick={() => add()}>=</button>
     </div>
    </div>
     </div>
